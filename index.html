@@ -20,8 +20,8 @@
 
         <script type="text/javascript">
             //My api key
-            var apikey = {
-                key: 'SUA API KEY AQUI:)'
+            const apikey = {
+                key: 'key'
             }
 
         //GET Fetch Requisition
@@ -33,7 +33,8 @@
             })
             .then((api) => {
                 
-                var texto = "";
+                console.log(api);
+                let texto = "";
                 // Get 10 coins and symbols 
                 for(let i = 0; i < 10; i++){
 
